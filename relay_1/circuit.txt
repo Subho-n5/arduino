@@ -1,0 +1,10 @@
+The 4-way relay draws it's power from the arduino.
+So, the Vcc of relay is connected to the 5V supply pin of arduino. And the ground is connected to a ground pin.
+Now the 4 relay pin is connected to 4 digital pin of arduino.
+RELAY -> DIGITAL PIN
+  1   -> 4
+  2   -> 6
+  3   -> 8
+  4   -> 10
+  
+After arduino & Relay connection. The relay is connected to the respective lights for control.
