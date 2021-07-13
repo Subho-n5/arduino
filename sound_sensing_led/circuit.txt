@@ -2,7 +2,7 @@ SENSOR:
   connect the vcc of sensor with arduino 5v supply pin
   connect the gnd of sensor with arduino gnd pin
   connect the data pin of sensor with pin A0 of arduino
-ARDUINO UNO:
+LED:
   connect gnd with the gnd of led
   connect the resistance of 450-470 quarter watt with pin no 5 of arduino
   connect the vcc of led with resistance
