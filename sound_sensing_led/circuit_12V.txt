@@ -1,0 +1,11 @@
+SENSOR:
+  connect the vcc of sensor with arduino 5v supply pin
+  connect the gnd of sensor with arduino gnd pin
+  connect the data pin of sensor with pin A0 of arduino
+LED:
+  connect gnd with the middle pin of the transistor
+  connect the vcc of led with positive supply of 12v
+TRANSISTOR: (TIP120, TIP122)
+  Connect the left pin(BASE) with 1K resistance. From the resistance connect with pin 5 of arduino.
+  Connect the middle pin(COLLECTOR) with the gnd of LED
+  Connect the right pin(EMITTER) with the gnd of the 12V supply and gnd pin of arduino.
