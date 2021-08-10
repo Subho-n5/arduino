@@ -1,0 +1,11 @@
+We will use a Arduino UNO to code the ESP_CAM-32 module as it has no micro-usb port. We can use FTDI programmer instead of Arduino UNO for the programming also.
+
+ARDUINO UNO:
+Connect Reset pin with GND pin (The second GND pin from the Reset pin)
+
+ESP-CAM-32 :
+Connect the GPIO pin 00 with GND next to it.
+Connect the RX pin to the RX pin of Arduino UNO.
+Connect the TX pin to the TX pin of Arduino UNO.
+Connect the GND with the GND supply of Arduino UNO.
+Connect the 5V with the 5V supply of Arduino UNO.
